@@ -1,0 +1,364 @@
+#mine {
+  margin-top: 22px;
+}
+
+#mine .creat {
+  background: radial-gradient(100% 613.59% at 0% 55.94%, rgba(0, 0, 0, 0.1) 24.26%, rgba(0, 0, 0, 0) 99.76%), #51459E;
+  box-shadow: 0px 11.5735px 36.3739px rgba(81, 69, 158, 0.2);
+  border-radius: 15px;
+  width: 1189px;
+  height: 553px;
+  margin-left: -37px;
+}
+
+#mine .creat .creat-top {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 70px;
+  width: 700px;
+  color: #FEFEFF;
+  margin-left: 45px;
+  margin-top: 47px;
+  position: absolute;
+}
+
+#mine .creat .creat-prgraph {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  width: 47%;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 208px;
+}
+
+#mine .creat .button .button-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 42px;
+  gap: 10px;
+  position: absolute;
+  width: 225px;
+  height: 54px;
+  left: 127px;
+  top: 474px;
+  background: #84E8F4;
+  border-radius: 609.459px;
+  border: none;
+}
+
+#mine .creat .button .button-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 49px;
+  gap: 10px;
+  position: absolute;
+  width: 218px;
+  height: 54px;
+  left: 363.84px;
+  top: 474px;
+  border: 1px solid #EBEBEB;
+  border-radius: 609.459px;
+}
+
+#mine .creat .surch {
+  position: absolute;
+  width: 463px;
+  height: 55px;
+  left: 127px;
+  top: 553px;
+  background: #FFFFFF;
+  border-radius: 145px;
+  border: none;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: #000000;
+}
+
+#mine .creat .surch .button-surch {
+  position: absolute;
+  width: 190px;
+  height: 20px;
+  left: 17px;
+  top: 16px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.5;
+  border: none;
+  background: none;
+}
+
+.brand {
+  margin-top: 38px;
+}
+
+.brand h3 {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 70px;
+  color: #51459E;
+  margin-left: -17px;
+}
+
+.imgs {
+  margin-top: 38px;
+}
+
+.imgs .google {
+  position: absolute;
+  left: 91px;
+  top: 818px;
+  opacity: 0.5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.imgs .amazon {
+  position: absolute;
+  left: 269px;
+  top: 815px;
+}
+
+.imgs .whatsapp {
+  position: absolute;
+  width: 153px;
+  height: 28px;
+  left: 468px;
+  top: 831px;
+  opacity: 0.5;
+}
+
+.imgs .Stripe {
+  position: absolute;
+  width: 117px;
+  height: 52px;
+  left: 670px;
+  top: 815px;
+  opacity: 0.5;
+}
+
+.imgs .airbnb {
+  position: absolute;
+  width: 153px;
+  height: 59px;
+  left: 830px;
+  top: 808px;
+  opacity: 0.5;
+}
+
+.imgs .Vector {
+  position: absolute;
+  right: 95.43px;
+  top: 83px;
+  opacity: 0.5;
+  top: 820px;
+}
+
+
+
+@media (max-width: 992px) {
+  .logo {
+    margin-left: -43px;
+  }
+
+  #mine .creat {
+    margin-left: 0;
+    width: 788px;
+  }
+
+  #mine .creat .creat-top {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 70px;
+    margin-left: 16px;
+    margin-top: 27px;
+  }
+
+  #mine .creat .creat-prgraph {
+    font-weight: 400;
+    font-size: 34px;
+    width: 72%;
+    margin-left: 17px;
+    margin-top: 168px;
+  }
+
+  #mine .creat .button .button-right {
+    width: 325px;
+    height: 54px;
+    left: 30px;
+    top: 493px;
+  }
+
+  #mine .creat .button .button-left {
+    width: 325px;
+    height: 54px;
+    left: 384px;
+    top: 497px;
+  }
+
+  #mine .creat .surch {
+    width: 442px;
+    height: 55px;
+    left: 35px;
+    top: 584px;
+  }
+
+  .brand {
+    margin-top: 10px;
+    margin-bottom: 250px;
+  }
+
+  .brand h3 {
+    margin-left: 13px;
+  }
+
+  .imgs .google {
+    left: 22px;
+    top: 772px;
+  }
+
+  .imgs .amazon {
+    left: 275px;
+    top: 772px;
+  }
+
+  .imgs .whatsapp {
+    left: 519px;
+    top: 786px;
+  }
+
+  .imgs .Stripe {
+    left: 293px;
+    top: 871px;
+  }
+
+  .imgs .airbnb {
+    left: 30px;
+    top: 865px;
+  }
+
+  .imgs .Vector {
+    right: 139.43px;
+    top: 884px;
+    width: 170px;
+  }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .logo {
+    margin-left: -43px;
+  }
+
+  #mine .creat {
+    margin-left: 0;
+    width: 348px;
+  }
+
+  #mine .creat .creat-top {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 41px;
+    width: 86%;
+    margin-left: 16px;
+    margin-top: 27px;
+  }
+
+  #mine .creat .creat-prgraph {
+    font-weight: 400;
+    font-size: 25px;
+    width: 86%;
+    margin-left: 17px;
+    margin-top: 134px;
+  }
+
+  #mine .creat .button .button-right {
+    width: 325px;
+    height: 54px;
+    left: 30px;
+    top: 455px;
+  }
+
+  #mine .creat .button .button-left {
+    width: 325px;
+    height: 54px;
+    left: 30px;
+    top: 522px;
+  }
+
+  #mine .creat .surch {
+    width: 323px;
+    height: 55px;
+    left: 35px;
+    top: 606px;
+  }
+
+  .brand {
+    margin-top: 10px;
+    margin-bottom: 250px;
+  }
+
+  .brand h3 {
+    font-size: 26px;
+    line-height: 42px;
+    ;
+  }
+
+  .imgs .google {
+    left: 22px;
+    top: 730px;
+  }
+
+  .imgs .amazon {
+    left: 197px;
+    top: 732px;
+  }
+
+  .imgs .whatsapp {
+    left: 32px;
+    top: 813px;
+  }
+
+  .imgs .Stripe {
+    left: 206px;
+    top: 805px;
+  }
+
+  .imgs .airbnb {
+    left: 30px;
+    top: 865px;
+  }
+
+  .imgs .Vector {
+    right: 15.43px;
+    top: 881px;
+    width: 170px;
+  }
+
+
+
+}

@@ -1,0 +1,131 @@
+#Stock {
+  margin-top: 48px;
+}
+
+#Stock .Stocks {
+  background: #212E31;
+  opacity: 0.95;
+  box-shadow: 0px 11.5735px 36.3739px rgba(81, 69, 158, 0.2);
+  border-radius: 15px;
+  width: 1189px;
+  height: 580px;
+  margin-left: -37px;
+}
+
+#Stock .Stock-right h2 {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  color: #FFFFFF;
+  margin-left: 31px;
+  margin-top: 72px;
+}
+
+#Stock .list {
+  margin-left: 39px;
+  margin-top: 55px;
+}
+
+#Stock .list .listpinsel {
+  display: flex;
+}
+
+#Stock .list .listpinsel button {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.3243px;
+  line-height: 23px;
+  color: #2C383B;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 303px;
+  height: 55px;
+  left: 127px;
+  top: 2615px;
+  background: #FFFFFF;
+  border-radius: 609.459px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 42px;
+  gap: 10px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+#Stock .list .listpinsel p {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-left: -3px;
+  width: 437px;
+  margin-top: -17px;
+}
+
+
+#Stock .Stock-left img {
+  border-radius: 15px;
+}
+
+@media (max-width: 576px) {
+  #Stock {
+    margin-top: -63px;
+  }
+
+  #Stock .Stocks {
+    margin-left: -8px;
+    width: 334px;
+    margin-bottom: 57%;
+    height: 482px;
+    background: none;
+    box-shadow: none;
+  }
+
+  #Stock .Stock-right {
+    background: #2E3D4F;
+    opacity: 0.95;
+    box-shadow: 0px 11.5735px 36.3739px rgb(81 69 158 / 20%);
+    border-radius: 15px;
+    margin-left: 12px;
+  }
+
+  #Stock .Stock-right h2 {
+    font-size: 36px;
+    margin-top: 29px;
+    margin-left: 34px;
+  }
+
+  #Stock .list {
+    margin-left: -4px;
+    margin-top: 12px;
+  }
+
+  #Stock .list .listpinsel p {
+    font-size: 23px;
+    margin-top: 24px;
+    margin-left: 39px;
+  }
+
+  #Stock .list .listpinsel button {
+    margin-top: 20px;
+    margin-left: 53px;
+    margin-bottom: 35px;
+  }
+
+  #Stock .Stock-left img {
+    border-radius: 15px;
+    width: 350px;
+    margin-top: -259px;
+    margin-bottom: 48px;
+
+  }
+}
